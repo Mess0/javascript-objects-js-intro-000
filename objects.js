@@ -3,5 +3,6 @@ var playlist = {
 }
 
 var updatePlaylist = (playlist, artistName, songTitle) => {
+  debugger;
    playlist[artistName] = songTitle;
 }
