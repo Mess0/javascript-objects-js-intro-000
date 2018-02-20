@@ -4,5 +4,5 @@ var playlist = {
 
 var updatePlaylist = (playlist, artistName, songTitle) => {
    artistName = playlist.artistName;
-   songTitle = playlist.songTitle
+   playlist.artistName = songTitle;
 }
