@@ -3,6 +3,9 @@ var playlist = {
 }
 
 var updatePlaylist = (playlist, artistName, songTitle) => {
-  debugger;
    playlist[artistName] = songTitle;
+}
+
+var removeFromPlaylist = (playlist, artistName) => {
+  delete playlist.artistName;
 }
